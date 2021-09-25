@@ -1,7 +1,19 @@
 /* Misc */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&family=Libre+Franklin:wght@300;600;700&display=swap');
 
 $vue-color: #46bd87;
 $danger-color: #ea4d46;
+
+$primaryColor1: hsl(233, 47%, 7%);
+$primaryColor2: hsl(244, 38%, 16%);
+$primaryColor3: hsl(277, 64%, 61%);
+
+$neutralColor1: hsl(0, 0%, 100%); //Head, Stats
+$neutralColor2: hsla(0, 0%, 100%, 0.75); //Main P
+$neutralColor3: hsla(0, 0%, 100%, 0.6); //Stats
+
+$textFont1: 'Inter', sans-serif;
+$textFont2: 'Lexend Deca', sans-serif;
 
 /* Navbar */
 
