@@ -76,7 +76,6 @@ body {
     -moz-osx-font-smoothing: grayscale;
     font-size: 16px;
     color: $neutralColor1;
-    background: $primaryColor1;
 
     .new-content-available-toastr {
       position: absolute;
@@ -86,20 +85,21 @@ body {
 
     .main-wrapper {
       display: flex;
-      flex-direction: column;
       align-items: center;
       justify-content: center;
-      height: 100%;
-      padding: 80px 40px 40px;
-
-      @media (max-width: 800px) {
-        padding: 80px 24px;
-      }
+      margin: 0;
+      min-height: 100%;
+      background: $primaryColor1;
 
       .page-wrapper {
         width: 100%;
         max-width: 1440px;
         margin: auto;
+        padding: 80px 40px 40px;
+
+        @media (max-width: 800px) {
+          padding: 40px 24px;
+        }
       }
     }
   }
